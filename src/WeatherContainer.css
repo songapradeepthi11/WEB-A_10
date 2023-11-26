@@ -1,0 +1,40 @@
+/* WeatherContainer.css */
+
+.container-fluid {
+    padding: 20px;
+  }
+  
+  h2 {
+    color: #000000;
+  }
+  
+  #city {
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add text shadow to the city name */
+  }
+  
+  .inputCard {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to the input card */
+  }
+  
+  #outlined-name {
+    width: 100%;
+  }
+  
+  .btn-warning {
+    background-color: #ff9800;
+    color: #fff;
+    padding: 10px 20px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a box shadow to the button */
+  }
+  
+  .btn-warning:hover {
+    background-color: #f57c00;
+  }
+  

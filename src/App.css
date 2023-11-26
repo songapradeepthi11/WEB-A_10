@@ -1,0 +1,80 @@
+/* General Styles */
+body {
+  transition: background-color 0.5s ease;
+}
+
+/* Header Styles */
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  background-color: var(--header-bg-color);
+  transition: background-color 0.5s ease;
+}
+
+/* Link Styles */
+a {
+  color: rgb(3, 0, 12) !important;
+  transition: color 0.3s ease, text-decoration 0.3s ease;
+}
+
+a:hover {
+  color: #1A237E !important;
+  text-decoration: none !important;
+}
+
+/* Container Styles */
+.container, .card {
+  background-color: rgb(225, 219, 53) !important;
+  transition: background-color 0.3s ease;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Button Styles */
+.btn {
+  color: rgb(9, 63, 189);
+  transition: color 0.3s ease;
+}
+
+.btn:hover {
+  color: #1A237E;
+}
+
+/* City Name Styles */
+.cityName {
+  float: left !important;
+}
+
+/* Logo Animation Styles */
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Day/Night Background Color */
+[data-time='day'] {
+  --header-bg-color: #87CEEB; /* Day color */
+}
+
+[data-time='night'] {
+  --header-bg-color: #2C3E50; /* Night color */
+}
+
+/* Card Hover Effect */
+.card:hover {
+  transform: scale(1.15);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
